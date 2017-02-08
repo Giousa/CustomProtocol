@@ -17,7 +17,7 @@ public class Test2 {
         int age = 21;
 
 
-        //序列化
+        //序列化  [0, 0, 0, 101, 0, 0, 0, 21]
         ByteBuffer buffer = ByteBuffer.allocate(8);
 
         buffer.putInt(id);
